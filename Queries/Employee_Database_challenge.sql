@@ -54,3 +54,14 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 select * from mentorship_eligibility
+
+-- To find the number of eligible emp for each titles
+Select me.titles, count(*)
+INTO eligible_emp
+From mentorship_eligibility as me
+Group by me.titles
+ORDER BY count(*) DESC;
+
+select * from eligible_emp
+
+
