@@ -10,6 +10,7 @@ Results: Provide a bulleted list with four major points from the two analysis de
 ![retiring_titles](Data/retiring_titles.png)
 
 * Among the 1550 eligible employees, only 277 are senior engineers and 444 are senior staff. Once they completed the mentorship program, these employees can only fill 1.0% of the retired senior engineer and 1.8% of the senior staff. 
+
 ![eligible_emp](Data/eligible_emp.png)
 
 * The analysis also showed that 2 managers positions may remain as vacant until someone become eligible to the mentorship program. However, given there are only 2 managers retiring, this will be the least concern. 
